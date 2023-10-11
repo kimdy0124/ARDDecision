@@ -28,7 +28,25 @@ The app will allow users to order food from local restaurants for delivery or pi
 # <Architectural Decisions>
 **Title:** ADR 1: Mobile App Architecture for Food Ordering and Payment Processing ZERO to LAUNCH
 ## Native, Web, or Hybrid App:
-
 <ins>Decision:</ins> The app will be developed as a native mobile application.
 <ins>Rationale:</ins> Native apps provide the best user experience, as they are optimized for each platform (iOS and Android) and can take full advantage of device features and performance. Given the user-centric nature of food ordering, a native app is the most appropriate choice to deliver a seamless and responsive experience. Also, users/customers mostly use mobile to order their foods.
 
+## UI Framework: 
+<ins>Decision: The app's front-end will be built using React Native. 
+<ins>Rationale: React Native is a popular cross-platform framework that allows for efficient development and maintenance across multiple platforms (iOS and Android). This choice ensures a consistent user interface and experience while reducing development efforts a lot. 
+
+## Backend Language: 
+<ins>Decision:</ins> The back-end of the app will be built using Node.js. 
+<ins>Rationale:</ins> Node.js is known for its efficiency, making it well-suited for handling the server-side operations of a food ordering app. Its non-blocking, event-driven architecture is particularly useful for real-time order tracking and handling multiple concurrent requests. Most start-ups and fin-tech use Node.js to develop their own ecological system.
+
+## Permissions:
+<ins>Decision:</ins>The app will request specific permissions, including location, camera (for scanning credit cards), and push notification access, as needed depends on the situation. 
+<ins>Rationale:</ins> Requesting permissions only when necessary ensures user privacy and trust. Location permission is essential for accurate restaurant recommendations and order tracking. Camera permission may be required for scanning credit card details. Push notification access is crucial for providing real-time updates to users. 
+
+## Data Storage: 
+<ins>Decision:</ins> User profiles, restaurant information, menus, and orders will be stored in a relational database management system (RDBMS). 
+<ins>Rationale:</ins> RDBMS is suitable for managing structured data with integrity, making it a good fit for user profiles, menus, and orders. Data consistency and reliability are critical for a food ordering app, and RDBMS provides those features. Also, we mentioned on Architecture part, MongoDB can be an option as well. (Consequences)
+
+## Additional Frameworks or Technology Stacks:
+<ins>Decision:</ins> The app will leverage Firebase for real-time features, such as real-time order tracking and push notifications. Firebase's real-time database capabilities are essential for providing users with immediate updates about their orders. Additionally, Firebase Cloud Messaging (FCM) will be used to handle push notifications for order updates and promotional offers.
+<ins>Rationale:</ins> Firebase provides real-time database capabilities, making it an excellent choice for features that require immediate updates, like order tracking and social interactions. It complements the Node.js back-end and React Native front-end effectively.
