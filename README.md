@@ -31,6 +31,5 @@ The app will allow users to order food from local restaurants for delivery or pi
 
 <ins>Decision:</ins> The app will be developed as a native mobile application.
 
-
 <ins>Rationale:</ins> Native apps provide the best user experience, as they are optimized for each platform (iOS and Android) and can take full advantage of device features and performance. Given the user-centric nature of food ordering, a native app is the most appropriate choice to deliver a seamless and responsive experience. Also, users/customers mostly use mobile to order their foods.
 
