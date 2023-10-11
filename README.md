@@ -14,6 +14,4 @@ The app will allow users to order food from local restaurants for delivery or pi
 | Requirements  | Architecture |
 | ------------- | ------------- |
 | <ins>User Registration and Authentication:</ins> Users should be able to create an account and securely log in to access their profile and order history. | <ins>Front-end:</ins>The front-end of the app will be developed using a cross-platform framework like React Native to ensure compatibility with both iOS and Android. |
-
-
-| Content Cell  | Content Cell  |
+| Restaurant and Menu Information: | Back-end: |
