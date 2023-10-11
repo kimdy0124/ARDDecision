@@ -6,7 +6,7 @@ Student Name: DONGYUN (DAVID) KIM
 
 Student ID: 000737829
 # Scenario3
-I chose **scenario 3** for the assignment
+## I chose **SCENARIO 3** for the assignment.
 You are a mobile app development team tasked with creating a new app for a client. 
 
 
@@ -23,3 +23,14 @@ The app will allow users to order food from local restaurants for delivery or pi
 | <ins>Notifications/Real-time communications:</ins> The app should provide push notifications to inform users about order confirmations, delivery updates, and promotional offers.| <ins>Machine learning:</ins> Machine learning algorithms will be used to analyze user preferences and ordering history, providing personalized recommendations for food choices and promotions.|
 
 **Decisions and Rational** have been confirmed <ins>BASED ON THE REQUIREMNTS & ARCHITECTURE FROM Business requirements and user needs.</ins>
+
+
+# <Architectural Decisions>
+**Title:** ADR 1: Mobile App Architecture for Food Ordering and Payment Processing ZERO to LAUNCH
+## Native, Web, or Hybrid App:
+
+<ins>Decision:</ins> The app will be developed as a native mobile application.
+
+
+<ins>Rationale:</ins> Native apps provide the best user experience, as they are optimized for each platform (iOS and Android) and can take full advantage of device features and performance. Given the user-centric nature of food ordering, a native app is the most appropriate choice to deliver a seamless and responsive experience. Also, users/customers mostly use mobile to order their foods.
+
