@@ -1,5 +1,4 @@
-# ARDDecision
-Assignment: Architectural Decisions
+# Assignment: Architectural Decisions
 
 
 Student Name: DONGYUN (DAVID) KIM
