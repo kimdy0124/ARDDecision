@@ -1,6 +1,10 @@
 # ARDDecision
 Assignment: Architectural Decisions
+
+
 Student Name: DONGYUN (DAVID) KIM
+
+
 Student ID: 000737829
 # Scenario3
 I chose scenario 3 for the assignment
